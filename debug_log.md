@@ -14,13 +14,20 @@ _Example: I noticed that the program should show pizza orders once a new order i
 _Then I noticed another bug ..._
 
 ## Exercise 1
-
-[[Your answer goes here!]]
+I first tried to run the app.py file and found I had an environment error. I then installed the 2 packages flask and flask sqlalchemy. I then ran the flask server and
+tested the website. I found a TypeError for the variable topping. I then checked to see what line the issue was arising
+    Fixes:
+        -changed line 71 to getList
+        -Onsumbit redirects to home line 90
+        -fullfill order was changed to a get request
 
 ## Exercise 2
-
-[[Your answer goes here!]]
+I first needed to setup my environment by installing python-env. Once I was able to run it, I tested the program and noticed I had an internal server error.
+I then checked my terminal to see a traceback error on line 52. I noticed that the context variables were not matching the city and units variables in the results method
+    Fixes: 
+        -line 39 changed to 'city' from 'users_city'
+        -line 40 changed 'units' from 'requested_units'
 
 ## Exercise 3
-
-[[Your answer goes here!]]
+* Changed right_side[i] to right_side[j]
+* Updated binary search by getting whole number instead of float when dividing
